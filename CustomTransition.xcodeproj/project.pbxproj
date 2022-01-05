@@ -15,9 +15,6 @@
 		7FF445E0258F9F55008B4931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF445DF258F9F55008B4931 /* Assets.xcassets */; };
 		7FF445E3258F9F55008B4931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF445E1258F9F55008B4931 /* LaunchScreen.storyboard */; };
 		7FF445EC258F9FBF008B4931 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF445EB258F9FBF008B4931 /* SecondVC.swift */; };
-		7FF445F0258FA241008B4931 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF445EF258FA241008B4931 /* PresentAnimator.swift */; };
-		7FF445F4258FA325008B4931 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF445F3258FA325008B4931 /* DismissAnimator.swift */; };
-		7FF445F7258FA3E5008B4931 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF445F6258FA3E5008B4931 /* CustomTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +28,6 @@
 		7FF445E2258F9F55008B4931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FF445E4258F9F55008B4931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FF445EB258F9FBF008B4931 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		7FF445EF258FA241008B4931 /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
-		7FF445F3258FA325008B4931 /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
-		7FF445F6258FA3E5008B4931 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +69,6 @@
 				7FF445DF258F9F55008B4931 /* Assets.xcassets */,
 				7FF445E1258F9F55008B4931 /* LaunchScreen.storyboard */,
 				7FF445E4258F9F55008B4931 /* Info.plist */,
-				7F484F072772E47B008867B8 /* TransitionManager.swift */,
 			);
 			path = CustomTransition;
 			sourceTree = "<group>";
@@ -83,9 +76,7 @@
 		7FF445EE258FA21B008B4931 /* Animator */ = {
 			isa = PBXGroup;
 			children = (
-				7FF445EF258FA241008B4931 /* PresentAnimator.swift */,
-				7FF445F3258FA325008B4931 /* DismissAnimator.swift */,
-				7FF445F6258FA3E5008B4931 /* CustomTransition.swift */,
+				7F484F072772E47B008867B8 /* TransitionManager.swift */,
 			);
 			path = Animator;
 			sourceTree = "<group>";
@@ -162,9 +153,6 @@
 			files = (
 				7F484F082772E47B008867B8 /* TransitionManager.swift in Sources */,
 				7FF445DB258F9F54008B4931 /* FirstVC.swift in Sources */,
-				7FF445F7258FA3E5008B4931 /* CustomTransition.swift in Sources */,
-				7FF445F4258FA325008B4931 /* DismissAnimator.swift in Sources */,
-				7FF445F0258FA241008B4931 /* PresentAnimator.swift in Sources */,
 				7FF445D7258F9F54008B4931 /* AppDelegate.swift in Sources */,
 				7FF445EC258F9FBF008B4931 /* SecondVC.swift in Sources */,
 				7FF445D9258F9F54008B4931 /* SceneDelegate.swift in Sources */,
