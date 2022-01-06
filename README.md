@@ -2,4 +2,4 @@
 This is a repo about custom transition between two view controllers.
 
 ## Demo of the project
-![image](https://user-images.githubusercontent.com/21290766/148392089-d63fbf29-85c4-441c-8862-f50c9e2a8e15.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/21290766/148392363-d2cd959a-2b7a-4523-9808-b9b2bb48c66e.gif)
